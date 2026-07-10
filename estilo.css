@@ -1,5 +1,5 @@
 body{
-    background-color: pink;
+    background-color: rgb(255, 227, 232);
 }
 header{
     text-align: center;
@@ -9,5 +9,5 @@ header{
     border-radius: 10px;
 }
 #t1{
-    color: blue;
+    color: rgb(255, 173, 208);
 }
