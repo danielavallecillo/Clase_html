@@ -6,5 +6,8 @@ header{
     border-style: solid;
     border-color: black;
     border-width: 3px;
-    
+    border-radius: 10px;
+}
+#t1{
+    color: blue;
 }
