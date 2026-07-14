@@ -1,3 +1,4 @@
 function saludo() {
-    console.log("Hola, mundo");
+    let x = document.getElementById("msg").value;
+    alert(x);
 }
