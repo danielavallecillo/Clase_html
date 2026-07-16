@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Calculadora</title>
+    <script src = "./java.js"></script>
+</head>
+<body>
+    <header>
+        <h1>Calculadora</h1>
+       </header>
+       <table>  
+        <thead>
+            <tr>
+                <th>
+                    Rotulo
+                </th>
+                <th>
+            Control
+        </th>
+    </tr>
+</thead>
+<tbody>
+    <tr>
+        <td>
+            <label for="n1">Ingresar el número 1</label>
+        </td>
+        <td>
+            <input type="text" id = "n1">
+        </td>
+    </tr>
+    <tr>
+        <td>
+            <label for="n2">Ingresar el número 2</label>
+        </td>
+        <td>
+            <input type="text" id = "n2">
+        </td>
+    </tr>
+    <tr>
+        <td>
+            <label for="n3">Ingresar el número 3</label>
+        </td>
+        <td>
+            <input type="text" id = "n3">
+        </td>
+    </tr>
+    <tr>
+        <td colspan="2">
+            <button onclick="sumar()">Sumar</button>
+        </td>
+    </tr>
+</tbody>
+       </table> 
+       <button onclick="numero()">Numeros</button>
+       <div id = "r">
+
+       </div>
+</body>
