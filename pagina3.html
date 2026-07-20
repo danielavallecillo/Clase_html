@@ -9,9 +9,31 @@
         <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/js/bootstrap.bundle.min.js" integrity="sha384-FKyoEForCGlyvwx9Hj09JcYn3nv7wiPVlz7YYwJrWVcXK/BmnVDxM+D2scQbITxI" crossorigin="anonymous"></script>
 </head>
 <body>
+    <div class="container bg-body-secondary">
     <header>
         <h1>Calculadora</h1>
        </header>
+       <nav class="navbar navbar-expand-lg bg-body-tertiary">
+            <div class="container-fluid">
+                <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+                </button>
+                <div class="collapse navbar-collapse" id="navbarNav">
+                <ul class="navbar-nav">
+                    <li class="nav-item">
+                    <a class="nav-link active" aria-current="page" href="#">Inicio</a>
+                    </li>
+                    <li class="nav-item">
+                    <a class="nav-link" href="./index.html">Volver a la pagina principal</a>
+                    </li>
+                    <li class="nav-item">
+                    <a class="nav-link" href="./pagina1.html">Pagina 1</a>
+                    </li>
+                    <li class="nav-item">
+                    <a class="nav-link" href="./pagina2.html">Pagina 2</a>
+                    </li>
+                </ul>
+            </nav>
        <table>  
         <thead>
             <tr>
@@ -49,7 +71,9 @@
         </td>
     </tr>
     <tr>
+        <hr>
         <td colspan="2">
+            <br>
             <button onclick="sumar()">Sumar</button>
         </td>
     </tr>
@@ -59,4 +83,5 @@
        <div id = "r">
 
        </div>
+    </div>
 </body>
